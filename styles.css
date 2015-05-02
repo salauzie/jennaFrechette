@@ -1,231 +1,25 @@
-body {
-  background-color: #7da6ad;
-  background-image: url(http://www.transparenttextures.com/patterns/brick-wall.png);
-  font-family: 'american typewriter';
-  margin: 0px; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - styles.sss
 
-header {
-  text-align: center;
-  font-family: 'american typewriter';
-  font-weight: strong;
-  background: white;
-  width: 100%;
-  height: 80px;
-  text-align: center;
-  color: black;
-  font-size: 60px; }
-
-.one {
-  position: relative;
-  width: 250px;
-  height: 350px;
-  display: inline-block;
-  margin: 15px; }
-
-.jenna1 {
-  width: 250px;
-  height: 350px;
-  vertical-align: middle;
-  border: 6px solid white; }
-
-.jenna2 {
-  width: 300px;
-  height: 500px;
-  vertical-align: middle;
-  border: 6px solid white; }
-
-.two {
-  position: relative;
-  width: 300px;
-  height: 500px;
-  display: inline-block;
-  margin: 15px; }
-
-.three {
-  width: 250px;
-  height: 350px;
-  display: inline-block;
-  margin: 15px; }
-
-.four {
-  position: relative;
-  width: 300px;
-  height: 500px;
-  display: inline-block;
-  margin: 15px; }
-
-.wrapper {
-  width: 99%;
-  display: inline-block;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  vertical-align: middle; }
-
-.container {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-left: 10%;
-  margin-right: 10%; }
-
-.aboutpic {
-  margin-top: 5%;
-  width: 500px;
-  height: 350px;
-  border: 6px solid white;
-  margin-bottom: 20px; }
-
-.teach {
-  width: 400px;
-  height: 400px;
-  vertical-align: middle;
-  display: inline-block;
-  border: 6px solid white; }
-
-.teaching-block {
-  padding-top: 2.5%; }
-
-.teaching-block a {
-  font-size: 20px;
-  text-decoration: none;
-  color: white; }
-
-.wrapper-teaching {
-  text-align: left;
-  margin-left: 15%;
-  margin-right: 15%; }
-
-.rage,
-.mlone {
-  height: 401px;
-  width: 401px;
-  margin-top: 5%; }
-
-.rage a,
-.mlone a {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-  margin-left: 2%; }
-
-.video {
-  width: 400px;
-  height: 400px;
-  vertical-align: middle;
-  display: inline-block;
-  border: 6px solid white; }
-
-.paula {
-  margin-top: 30px;
-  margin-bottom: 1%;
-  width: 600px;
-  height: 350px;
-  border: 6px solid white; }
-
-footer a {
-  font-size: 45px;
-  margin-left: 2%;
-  margin-right: 2%; }
-
-footer a:hover {
-  text-decoration: none; }
-
-footer {
-  padding-top: 2%;
-  width: 100%;
-  margin-top: 2%;
-  padding-bottom: 2%; }
-
-.dropdown {
-  position: relative;
-  display: inline-block; }
-
-.dropdown .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  text-align: center;
-  display: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  /** Remove list bullets */
-  width: 100%;
-  /** Set the width to 100% of it's parent */
-  padding: 0;
-  font-size: 30px; }
-
-.dropdown:hover .dropdown-menu {
-  display: block; }
-
-/** List Item Styles **/
-.dropdown a {
-  display: block;
-  padding: 0.2em 0.8em;
-  text-decoration: none;
-  background: #CCCCCC;
-  color: #333333; }
-
-/** List Item Hover Styles **/
-.dropdown a:hover {
-  background: #BBBBBB; }
-
-.four .overlay,
-.two .overlay,
-.one .overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  margin: auto;
-  width: 0px;
-  height: 0px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease; }
-
-.four:hover .overlay,
-.two:hover .overlay {
-  opacity: 1;
-  width: 98%;
-  height: 97%;
-  border: 12px solid white;
-  border-bottom: 26px solid white; }
-
-.one:hover .overlay {
-  opacity: 1;
-  width: 98%;
-  height: 98%;
-  border: 12px solid white;
-  border-bottom: 18px solid white; }
-
-.overlay span {
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  padding-bottom: 50px;
-  width: 250px;
-  height: 30px;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0; }
-
-.four:hover .overlay span,
-.two:hover .overlay span,
-.one:hover .overlay span {
-  opacity: 1;
-  -webkit-transition: 1.3s ease;
-  transition: 1.3s ease; }
-
-@media screen and (max-width: 375px) {
-  body, header, aside, .wrapper, p, li, ul, .one, .two, .three, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span {
-    max-width: 320px; } }
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/plugin.rb:108:in `method_missing'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/Users/stephanielauziere/.rvm/rubies/ruby-2.2.0/lib/ruby/gems/2.2.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+/Users/stephanielauziere/.rvm/gems/ruby-2.2.0/bin/sass:23:in `load'
+/Users/stephanielauziere/.rvm/gems/ruby-2.2.0/bin/sass:23:in `<main>'
+/Users/stephanielauziere/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/stephanielauziere/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - styles.sss"; }
