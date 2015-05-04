@@ -1,8 +1,13 @@
+html {
+	width: 100%;
+}
+
 body {
 	background-color: #7da6ad;
 	background-image: url(http://www.transparenttextures.com/patterns/brick-wall.png);
 	font-family: 'american typewriter';
 	margin: 0px;
+	width: 100%;
 }
 
 header {
@@ -11,10 +16,12 @@ header {
 	font-weight: strong;
 	background: white;
 	width: 100%;
-	height: 80px;
+	height: 100%;
 	text-align: center;
 	color: black;
-	font-size: 60px;
+	font-size: 370%;
+	margin: 0;
+	padding: 0;
 }
 
 .one {
@@ -265,5 +272,5 @@ footer {
 ///responsive
 
 @media screen and (max-width:375px) {
-	body, header, aside, .wrapper, p, li, ul, .one, .two, .three, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span { max-width: 320px;}
+	body, header, .wrapper, p, li, ul, .one, .two, .three, .four, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span { max-width: 320px;}
 }
