@@ -1,5 +1,3 @@
-
-
 body {
 	background-color: #7da6ad;
 	background-image: url(http://www.transparenttextures.com/patterns/brick-wall.png);
@@ -272,6 +270,6 @@ footer {
 
 ///responsive
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:320px) {
 	body, header, .wrapper, p, li, ul, .one, .two, .three, .four, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span { max-width: 320px;}
 }
