@@ -50,6 +50,7 @@ header {
 }
 
 .three {
+	position: relative;
 	width: 250px;
 	height: 350px;
 	display: inline-block;
@@ -201,6 +202,7 @@ footer {
 }
 
 .four .overlay,
+.three .overlay,
 .two .overlay,
 .one .overlay{
   background: rgba(0,0,0,.7);
@@ -226,6 +228,7 @@ footer {
   border-bottom: 26px solid white;
 }
 
+.three:hover .overlay,
 .one:hover .overlay{
   opacity: 1;
   width: 98%;
@@ -251,6 +254,7 @@ footer {
 }
 
 .four:hover .overlay span,
+.three:hover .overlay span,
 .two:hover .overlay span,
 .one:hover .overlay span{
   opacity: 1;
