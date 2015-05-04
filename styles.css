@@ -102,6 +102,13 @@ header {
   margin-left: 15%;
   margin-right: 15%; }
 
+.container {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%; }
+
 .rage,
 .mlone {
   height: 401px;
@@ -234,7 +241,7 @@ footer {
   transition: 1.3s ease; }
 
 @media screen and (max-width: 320px) {
-  body, header, .wrapper, p, li, ul, .one, .two, .three, .four, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span {
+  body, header, .wrapper, p, li, ul, .one, .two, .three, .four, img, .video, a, .rage, .mlone, .wrapper-teaching, .teaching-block, .teach, .aboutpic, .container, .jenna1, .jenna2, .paula, footer, .about, .dropdown, .dropdown-menu, .overlay, span, .performances {
     max-width: 320px; } }
 @media screen and (max-width: 320px) {
   .one, .two, .three, .four {
@@ -243,5 +250,20 @@ footer {
   .overlay, .one, .two, .three, .four, .jenna1, .jenna2 {
     max-width: 250px;
     max-height: 350px; } }
+@media screen and (max-width: 320px) {
+  .teach, .paula, .aboutpic {
+    max-width: 250px;
+    max-height: 250px; } }
+@media screen and (max-width: 320px) {
+  .performances {
+    font-size: 70%; } }
+@media screen and (max-width: 320px) {
+  .wrapper-teaching {
+    margin: 5px;
+    text-align: center; } }
+@media screen and (max-width: 320px) {
+  .teach {
+    margin-top: 15px;
+    margin-bottom: 15px; } }
 
 /*# sourceMappingURL=styles.css.map */
