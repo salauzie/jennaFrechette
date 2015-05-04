@@ -1,12 +1,12 @@
-html {
-  width: 100%; }
-
 body {
   background-color: #7da6ad;
   background-image: url(http://www.transparenttextures.com/patterns/brick-wall.png);
   font-family: 'american typewriter';
+  width: 100%;
+  height: 100%;
   margin: 0px;
-  width: 100%; }
+  padding: 0px;
+  overflow-x: hidden; }
 
 header {
   text-align: center;
